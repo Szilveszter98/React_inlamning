@@ -10,7 +10,7 @@ return (
 
    
 
-    <center><h1>Pleace choose a time when you would like to meet us!</h1></center><br/>
+ <h1 className={"book_time_text"}>Pleace choose a time when you would like to meet us!</h1><br/>
     <ul className={"cards"}>
         <li className={"cards_item"}>
             <div className={"card"}>

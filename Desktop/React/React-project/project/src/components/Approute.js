@@ -16,7 +16,7 @@ const Approute = ()=>{
                  <Route path="/" component= {Card} exact ></Route>
                  <Route path="/Bookings" component= {Booking} exact></Route>
                  <Route path="/form" exact component= {Formular}></Route>
-                 <Route path="/App" component= {App} exact ></Route>
+                 
             </BrowserRouter>
             
               
