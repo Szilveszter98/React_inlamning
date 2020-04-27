@@ -21,7 +21,7 @@ return (
                     <p className={"card_text"}>Contrary to popular belief, Lorem Ipsum is not simply random text.<br/> It has roots in a piece of classical Latin literature from 45 BC  </p>
                    
                     
-                    <button className={"btn card_btn"}>To the project</button>
+                    <button className={"btn card_btn"}>Take this time!</button>
                 </div>
             </div>
         </li>
@@ -35,7 +35,7 @@ return (
                     <p className={"card_text"}>Contrary to popular belief, Lorem Ipsum is not simply random text.<br/> It has roots in a piece of classical Latin literature from 45 BC  </p>
                    
                     
-                    <button className={"btn card_btn"}>To the project</button>
+                    <button className={"btn card_btn"}>Take this time!</button>
                 </div>
             </div>
         </li>
@@ -48,7 +48,7 @@ return (
                     <p className={"card_text"}>Contrary to popular belief, Lorem Ipsum is not simply random text.<br/> It has roots in a piece of classical Latin literature from 45 BC  </p>
                    
                     
-                    <button className={"btn card_btn"}>To the project</button>
+                    <button className={"btn card_btn"}>Take this time!</button>
                 </div>
             </div>
         </li>
