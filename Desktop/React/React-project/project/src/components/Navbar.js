@@ -20,6 +20,8 @@ const Navbar = ()=>{
               <li><Link to="/Card.js">Features</Link></li>
               <li><Link to="/Booking.js">Bookings</Link></li>
               <li><Link to="/Form">Form</Link></li>
+              <li><Link to="/Adminform">Adminform</Link></li>
+              <li><Link to="/AdminSida">AdminSida</Link></li>
           </ul>
       </div>
     </nav>

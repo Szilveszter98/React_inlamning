@@ -1,10 +1,18 @@
 import React from "react";
-import { BrowserRouter, Route} from "react-router-dom";
-import Card from "./Card";
+
+//npm i react-router-dom --save
+import { BrowserRouter, Route, Switch} from "react-router-dom";
+
 import Booking from "./Booking";
-import Navbar from "./Navbar"
-import Formular from "../pages/Formular"
+
+import Navbar from "./Navbar"; 
+import Form from "./Form";
+import Notfoundpage from "./Notfoundpage";
 import App from "./App";
+import Adminform from "./Adminform";
+import AdminLogin from "./Auth/AdminLogin";
+import AdminSida from "./AdminSida";
+//import Formular from "../pages/Formular"
 
 const Approute = ()=>{
 
@@ -12,11 +20,16 @@ const Approute = ()=>{
         <div>
              
             <BrowserRouter>
+
                  <Navbar/>
-                 <Route path="/" component= {Card} exact ></Route>
+                 <Switch>
+                 <Route path="/" component={App} exact ></Route>
                  <Route path="/Bookings" component= {Booking} exact></Route>
-                 <Route path="/form" exact component= {Formular}></Route>
-                 
+                 <Route path="/form"  component= {Form} exact></Route>
+                 <Route path="/Adminform"  component= {Adminform} exact></Route>
+                 <Route path="/Adminsida" exact component={AdminSida}></Route>
+                 <Route component={Notfoundpage}></Route>
+                 </Switch>
             </BrowserRouter>
             
               
@@ -25,3 +38,13 @@ const Approute = ()=>{
 }
 
 export default Approute;
+
+//stänga cmsserver från playground
+// skapa en cmsserver i din original app 
+// starta den 
+// gå in till admin dashboard 
+//skapa minst 8 produkter 
+// presentera dem. 
+//glöm ej publicera. ger behörighet
+
+// npm run develop  //för att starta strapi server
